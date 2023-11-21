@@ -57,6 +57,14 @@ main{
     border-color: black;
     color: black;
 }
+#img{
+    cursor: pointer;
+    transition: 4s;
+}
+#img:hover{
+    transform: scale(1.1);
+    transition: 4s;
+}
 #insta:hover{
     background-color: rgb(224, 19, 163);
 }
